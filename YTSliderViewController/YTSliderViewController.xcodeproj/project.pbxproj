@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BDD46451C78B0DB00E8CBD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD46371C78B0DB00E8CBD9 /* AppDelegate.m */; };
+		7BDD46461C78B0DB00E8CBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDD46381C78B0DB00E8CBD9 /* Assets.xcassets */; };
+		7BDD46471C78B0DB00E8CBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDD46391C78B0DB00E8CBD9 /* LaunchScreen.storyboard */; };
+		7BDD46481C78B0DB00E8CBD9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD463D1C78B0DB00E8CBD9 /* TestViewController.m */; };
+		7BDD46491C78B0DB00E8CBD9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BDD463E1C78B0DB00E8CBD9 /* Info.plist */; };
+		7BDD464A1C78B0DB00E8CBD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD463F1C78B0DB00E8CBD9 /* main.m */; };
+		7BDD464B1C78B0DB00E8CBD9 /* YTSliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD46421C78B0DB00E8CBD9 /* YTSliderBar.m */; };
+		7BDD464C1C78B0DB00E8CBD9 /* YTSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD46441C78B0DB00E8CBD9 /* YTSliderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BDD46051C7850B100E8CBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDD45E31C7850B100E8CBD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDD45EA1C7850B100E8CBD9;
+			remoteInfo = YTSilderViewController;
+		};
+		7BDD46101C7850B100E8CBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDD45E31C7850B100E8CBD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDD45EA1C7850B100E8CBD9;
+			remoteInfo = YTSilderViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BDD45EB1C7850B100E8CBD9 /* YTSliderViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTSliderViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDD46041C7850B100E8CBD9 /* YTSliderViewController.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTSliderViewController.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDD460F1C7850B100E8CBD9 /* YTSliderViewController.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTSliderViewController.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDD46361C78B0DB00E8CBD9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BDD46371C78B0DB00E8CBD9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BDD46381C78B0DB00E8CBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BDD463A1C78B0DB00E8CBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BDD463C1C78B0DB00E8CBD9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		7BDD463D1C78B0DB00E8CBD9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		7BDD463E1C78B0DB00E8CBD9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDD463F1C78B0DB00E8CBD9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BDD46411C78B0DB00E8CBD9 /* YTSliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSliderBar.h; sourceTree = "<group>"; };
+		7BDD46421C78B0DB00E8CBD9 /* YTSliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSliderBar.m; sourceTree = "<group>"; };
+		7BDD46431C78B0DB00E8CBD9 /* YTSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSliderViewController.h; sourceTree = "<group>"; };
+		7BDD46441C78B0DB00E8CBD9 /* YTSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSliderViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDD45E81C7850B100E8CBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDD46011C7850B100E8CBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDD460C1C7850B100E8CBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDD45E21C7850B100E8CBD9 = {
+			isa = PBXGroup;
+			children = (
+				7BDD46351C78B0DB00E8CBD9 /* YTSliderViewController */,
+				7BDD45EC1C7850B100E8CBD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDD45EC1C7850B100E8CBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDD45EB1C7850B100E8CBD9 /* YTSliderViewController.app */,
+				7BDD46041C7850B100E8CBD9 /* YTSliderViewController.xctest */,
+				7BDD460F1C7850B100E8CBD9 /* YTSliderViewController.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BDD46351C78B0DB00E8CBD9 /* YTSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7BDD46361C78B0DB00E8CBD9 /* AppDelegate.h */,
+				7BDD46371C78B0DB00E8CBD9 /* AppDelegate.m */,
+				7BDD463B1C78B0DB00E8CBD9 /* Demo */,
+				7BDD46401C78B0DB00E8CBD9 /* YTSliderViewController */,
+				7BDD46571C78B1AB00E8CBD9 /* Supporting Files */,
+			);
+			path = YTSliderViewController;
+			sourceTree = "<group>";
+		};
+		7BDD463B1C78B0DB00E8CBD9 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7BDD463C1C78B0DB00E8CBD9 /* TestViewController.h */,
+				7BDD463D1C78B0DB00E8CBD9 /* TestViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		7BDD46401C78B0DB00E8CBD9 /* YTSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7BDD46411C78B0DB00E8CBD9 /* YTSliderBar.h */,
+				7BDD46421C78B0DB00E8CBD9 /* YTSliderBar.m */,
+				7BDD46431C78B0DB00E8CBD9 /* YTSliderViewController.h */,
+				7BDD46441C78B0DB00E8CBD9 /* YTSliderViewController.m */,
+			);
+			path = YTSliderViewController;
+			sourceTree = "<group>";
+		};
+		7BDD46571C78B1AB00E8CBD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BDD46381C78B0DB00E8CBD9 /* Assets.xcassets */,
+				7BDD46391C78B0DB00E8CBD9 /* LaunchScreen.storyboard */,
+				7BDD463E1C78B0DB00E8CBD9 /* Info.plist */,
+				7BDD463F1C78B0DB00E8CBD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BDD45EA1C7850B100E8CBD9 /* YTSliderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDD46181C7850B100E8CBD9 /* Build configuration list for PBXNativeTarget "YTSliderViewController" */;
+			buildPhases = (
+				7BDD45E71C7850B100E8CBD9 /* Sources */,
+				7BDD45E81C7850B100E8CBD9 /* Frameworks */,
+				7BDD45E91C7850B100E8CBD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTSliderViewController;
+			productName = YTSilderViewController;
+			productReference = 7BDD45EB1C7850B100E8CBD9 /* YTSliderViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BDD46031C7850B100E8CBD9 /* YTSliderViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDD461B1C7850B100E8CBD9 /* Build configuration list for PBXNativeTarget "YTSliderViewControllerTests" */;
+			buildPhases = (
+				7BDD46001C7850B100E8CBD9 /* Sources */,
+				7BDD46011C7850B100E8CBD9 /* Frameworks */,
+				7BDD46021C7850B100E8CBD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDD46061C7850B100E8CBD9 /* PBXTargetDependency */,
+			);
+			name = YTSliderViewControllerTests;
+			productName = YTSilderViewControllerTests;
+			productReference = 7BDD46041C7850B100E8CBD9 /* YTSliderViewController.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BDD460E1C7850B100E8CBD9 /* YTSliderViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDD461E1C7850B100E8CBD9 /* Build configuration list for PBXNativeTarget "YTSliderViewControllerUITests" */;
+			buildPhases = (
+				7BDD460B1C7850B100E8CBD9 /* Sources */,
+				7BDD460C1C7850B100E8CBD9 /* Frameworks */,
+				7BDD460D1C7850B100E8CBD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDD46111C7850B100E8CBD9 /* PBXTargetDependency */,
+			);
+			name = YTSliderViewControllerUITests;
+			productName = YTSilderViewControllerUITests;
+			productReference = 7BDD460F1C7850B100E8CBD9 /* YTSliderViewController.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDD45E31C7850B100E8CBD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "朱辉";
+				TargetAttributes = {
+					7BDD45EA1C7850B100E8CBD9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7BDD46031C7850B100E8CBD9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3B4RYH6YK3;
+						TestTargetID = 7BDD45EA1C7850B100E8CBD9;
+					};
+					7BDD460E1C7850B100E8CBD9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3B4RYH6YK3;
+						TestTargetID = 7BDD45EA1C7850B100E8CBD9;
+					};
+				};
+			};
+			buildConfigurationList = 7BDD45E61C7850B100E8CBD9 /* Build configuration list for PBXProject "YTSliderViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BDD45E21C7850B100E8CBD9;
+			productRefGroup = 7BDD45EC1C7850B100E8CBD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDD45EA1C7850B100E8CBD9 /* YTSliderViewController */,
+				7BDD46031C7850B100E8CBD9 /* YTSliderViewControllerTests */,
+				7BDD460E1C7850B100E8CBD9 /* YTSliderViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDD45E91C7850B100E8CBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDD46461C78B0DB00E8CBD9 /* Assets.xcassets in Resources */,
+				7BDD46471C78B0DB00E8CBD9 /* LaunchScreen.storyboard in Resources */,
+				7BDD46491C78B0DB00E8CBD9 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDD46021C7850B100E8CBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDD460D1C7850B100E8CBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDD45E71C7850B100E8CBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDD46481C78B0DB00E8CBD9 /* TestViewController.m in Sources */,
+				7BDD464C1C78B0DB00E8CBD9 /* YTSliderViewController.m in Sources */,
+				7BDD464B1C78B0DB00E8CBD9 /* YTSliderBar.m in Sources */,
+				7BDD464A1C78B0DB00E8CBD9 /* main.m in Sources */,
+				7BDD46451C78B0DB00E8CBD9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDD46001C7850B100E8CBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDD460B1C7850B100E8CBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BDD46061C7850B100E8CBD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDD45EA1C7850B100E8CBD9 /* YTSliderViewController */;
+			targetProxy = 7BDD46051C7850B100E8CBD9 /* PBXContainerItemProxy */;
+		};
+		7BDD46111C7850B100E8CBD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDD45EA1C7850B100E8CBD9 /* YTSliderViewController */;
+			targetProxy = 7BDD46101C7850B100E8CBD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BDD46391C78B0DB00E8CBD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDD463A1C78B0DB00E8CBD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BDD46161C7850B100E8CBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BDD46171C7850B100E8CBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BDD46191C7850B100E8CBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/YTSliderViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeetor.YTSliderViewController;
+				PRODUCT_NAME = YTSliderViewController;
+			};
+			name = Debug;
+		};
+		7BDD461A1C7850B100E8CBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/YTSliderViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeetor.YTSliderViewController;
+				PRODUCT_NAME = YTSliderViewController;
+			};
+			name = Release;
+		};
+		7BDD461C1C7850B100E8CBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YTSliderViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeetor.YTSliderViewControllerTests;
+				PRODUCT_NAME = YTSliderViewController;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTSliderViewController.app/YTSliderViewController";
+			};
+			name = Debug;
+		};
+		7BDD461D1C7850B100E8CBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YTSliderViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeetor.YTSliderViewControllerTests;
+				PRODUCT_NAME = YTSliderViewController;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTSliderViewController.app/YTSliderViewController";
+			};
+			name = Release;
+		};
+		7BDD461F1C7850B100E8CBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YTSliderViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeetor.YTSliderViewControllerUITests;
+				PRODUCT_NAME = YTSliderViewController;
+				TEST_TARGET_NAME = YTSilderViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7BDD46201C7850B100E8CBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YTSliderViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeetor.YTSliderViewControllerUITests;
+				PRODUCT_NAME = YTSliderViewController;
+				TEST_TARGET_NAME = YTSilderViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDD45E61C7850B100E8CBD9 /* Build configuration list for PBXProject "YTSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDD46161C7850B100E8CBD9 /* Debug */,
+				7BDD46171C7850B100E8CBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDD46181C7850B100E8CBD9 /* Build configuration list for PBXNativeTarget "YTSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDD46191C7850B100E8CBD9 /* Debug */,
+				7BDD461A1C7850B100E8CBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDD461B1C7850B100E8CBD9 /* Build configuration list for PBXNativeTarget "YTSliderViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDD461C1C7850B100E8CBD9 /* Debug */,
+				7BDD461D1C7850B100E8CBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDD461E1C7850B100E8CBD9 /* Build configuration list for PBXNativeTarget "YTSliderViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDD461F1C7850B100E8CBD9 /* Debug */,
+				7BDD46201C7850B100E8CBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BDD45E31C7850B100E8CBD9 /* Project object */;
+}
